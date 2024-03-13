@@ -80,7 +80,7 @@ class Stage extends FlameGame {
       }
       ball.position
         ..x += speedX
-        ..y += speedY;
+        ..y -= speedY;
     });
   }
 }
